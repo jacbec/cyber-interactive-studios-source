@@ -1,0 +1,169 @@
+/* Form */
+#contact_form {
+	position: relative;
+	width: 512px;
+	padding: 15px 0px 15px 0px;
+	margin: 0px auto;
+}
+
+#apply_form {
+	position: relative;
+	width: 512px;
+	padding: 15px 0px 15px 0px;
+	margin: 0px auto;
+}
+
+#profile_form {
+	position: relative;
+	width: 256px;
+	padding: 15px 0px 15px 0px;
+	margin: 0px auto;
+}
+
+#create_topic {
+	position: relative;
+	width: 840px;
+	padding: 15px 0px 15px 0px;
+	margin: 0px auto;
+}
+
+#reply {
+	position: relative;
+	width: 840px;
+	padding: 15px 0px 15px 0px;
+	margin: 0px 80px;
+}
+
+#password_strength {
+	font: "Miriam";
+	font-size: 400 12px/12px;
+	color: #000000;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	-webkit-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	-moz-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+}
+
+.strength_0 {
+	background: #FFFFFF;
+}
+
+.strength_1 {
+	background: #FF0000;
+}
+
+.strength_2 {	
+	background: #FF5F5F;
+}
+
+.strength_3 {
+	background: #56E500;
+}
+
+.strength_4 {
+	background: #4DCD00;
+}
+
+.strength_5 {
+	background: #399800;
+}
+
+#input_file {
+  height: 0;
+  width: 0;
+}
+
+#errors, #messages {
+	position: relative;
+	width: 256px;
+	padding: 15px 0px 15px 0px;
+	margin: 0px auto;
+}
+
+#errors p {
+	font: "Miriam";
+	font-size: 400 12px/12px;
+	color: #000000;
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #FF0000;
+	box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	background: #1E90FF;
+	-webkit-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	-moz-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+}
+
+#messages p {
+	font: "Miriam";
+	font-size: 400 12px/12px;
+	color: #000000;
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #1E90FF;
+	box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	background: #1E90FF;
+	-webkit-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	-moz-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+	font: "Miriam";
+	font-size: 400 12px/12px;
+	width: 100%;
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	-moz-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+}
+
+#input_file_label, input[type="submit"], input[type="reset"], input[type="button"] {
+	font: "Miriam";
+	font-size: 400 12px/12px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	-moz-box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover, #input_file_label:hover, input[type="submit"]:hover, 
+input[type="reset"]:hover, input[type="button"]:hover, textarea:hover, #richTextField:hover {
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid #1E90FF;
+	-webkit-transition: border-color 0.3s ease-in-out;
+	-moz-transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus, #richTextField:focus{
+	outline: 0;
+	border: 1px solid #1E90FF;
+}
+
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}

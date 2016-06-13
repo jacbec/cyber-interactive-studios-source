@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /general.php
+Disallow: /news.php
+Disallow: /pcs.php
+Disallow: /projects.php
+Disallow: /random.php
+Disallow: /servers.php
+Disallow: /topic.php
+Disallow: /updates.php
+Disallow: /websites.php

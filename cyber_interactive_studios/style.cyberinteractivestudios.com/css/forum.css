@@ -1,0 +1,292 @@
+/*
+	Forum Styling
+*/
+.forum_area {
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	width: 1500px;
+	min-width: 720px;
+	padding-top: 25px;
+	margin: 0px auto;
+}
+
+.discussion_forum {
+	font: "Miriam";
+	font-size: 12px;
+	position: relative;
+	width: 1400px;
+	padding: 30px 0px 30px 0px;
+	margin: 0px auto;
+
+}
+
+.discussion_forum ul {
+	overflow: hidden;
+	display: inline-block;
+	display:block;
+	list-style: none;
+}
+
+.discussion_forum li {
+	font: "Miriam";
+	font-size: 12px;
+	display: inline-block;
+	margin: 0px;
+	list-style: none;
+}
+
+.discussion_forum img {
+	float: left;
+	overflow: hidden;
+	padding-right: 5px;
+}
+
+.discussion_forum p {
+	font: "Miriam";
+	font-size: 14px;
+	color: #000000;
+}
+
+.row_1 {
+	width: 850px; 
+}
+
+.row_2 {
+	text-align: right;
+	width: 100px;
+}
+
+.row_3 {
+	width: 325px;
+}
+
+/*
+	Forum Top Label Styling
+*/
+.discussion_label_top {
+	font: "Miriam";
+	font-size: 16px;
+	color: #FFFFFF;
+	position: relative;
+	padding: 0px;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-radius: 5px 5px 0px 0px;
+	background: #1E90FF;
+	z-index: 1;
+}
+
+.discussion_label_top ul {
+	overflow: hidden;
+	display: inline-block;
+	display:block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.discussion_label_top li {
+	font: "Miriam";
+	font-size: 12px;
+	display: inline-block;
+	top: 0px;
+	padding: 10px 15px 10px 15px;
+	margin: 0px;
+	list-style: none;
+}
+
+.discussion_label_top a:link {
+	font: "Miriam";
+	font-size: 12px;
+	color: #000000;
+}
+
+.discussion_label_top a:visited {
+	color: #000000;
+}
+
+.discussion_label_top a:hover {
+	color: #1E90FF;
+}
+
+.discussion_label_top a:active {
+	color: #1E90FF;
+}
+
+.discussion_label_top .row_3 {
+	width: 290px;
+}
+
+/*
+	Forum Body Styling
+*/
+.discussion_body {
+	font: "Miriam";
+	font-size: 16px;
+	color: #000000;
+	position: relative;
+	width: 1394px;
+	margin: 0px auto;
+	padding: 0px;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px -5px 4px rgba(0,0,0, 0.4);
+	background: #FFFFFF;
+	-webkit-box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px 0px 4px rgba(0,0,0, 0.4);
+	-moz-box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px 0px 4px rgba(0,0,0, 0.4);
+}
+
+.discussion_body ul {
+	overflow: hidden;
+	display: inline-block;
+	display:block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #000000;
+}
+
+.discussion_body li {
+	font: "Miriam";
+	font-size: 12px;
+	display: inline-block;
+	top: 0px;
+	padding: 20px 15px 20px 15px;
+	margin: 0px;
+	list-style: none;
+}
+
+.discussion_body a:link {
+	font: "Miriam";
+	font-size: 18px;
+	color: #000000;
+}
+
+.discussion_body a:visited {
+	color: #000000;
+}
+
+.discussion_body a:hover {
+	color: #1E90FF;
+}
+
+.discussion_body a:active {
+	color: #1E90FF;
+}
+
+/*
+	Forum Bottom Label Styling
+*/
+.discussion_label_bottom {
+	font: "Miriam";
+	font-size:  16px;
+	color: #FFFFFF;
+	position: relative;
+	padding: 0px;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-radius: 0px 0px 5px 5px;
+	background: #1E90FF;
+	z-index: 1000;
+}
+
+.discussion_label_bottom  ul {
+	display: inline-block;
+	display:block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.discussion_label_bottom  li {
+	font: "Miriam";
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	top: 0px;
+	width: 100%;
+	padding: 10px 15px 10px 15px;
+	margin: 0px;
+	list-style: none;
+}
+
+.discussion_label_bottom a:link {
+	font: "Miriam";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.discussion_label_bottom a:visited {
+	color: #FFFFFF;
+}
+
+.discussion_label_bottom a:hover {
+	color: #000000;
+}
+
+.discussion_label_bottom a:active {
+	color: #000000;
+}
+
+
+.topic_body {
+	color: #000000;
+	position: relative;
+	width: 1394px;
+	margin: 0px auto;
+	padding: 0px;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px -5px 4px rgba(0,0,0, 0.4);
+	background: #FFFFFF;
+	-webkit-box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px -5px 4px rgba(0,0,0, 0.4);
+	-moz-box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px -5px 4px rgba(0,0,0, 0.4);
+}
+
+.topic_body ul {
+	overflow: hidden;
+	display: inline-block;
+	display:block;
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	border-bottom: 1px solid #000000;
+}
+
+.topic_body li {
+	font: "Miriam";
+	font-size: 12px;
+	display: inline-block;
+	top: 0px;
+	padding: 15px 0px 0px 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.topic_body img {
+	float: left;
+	overflow: hidden;
+	padding-left: 5px;
+}
+
+.topic_body a:link {
+	font: "Miriam";
+	font-size: 18px;
+	color: #000000;
+}
+
+.topic_body a:visited {
+	color: #000000;
+}
+
+.topic_body a:hover {
+	color: #1E90FF;
+}
+
+.topic_body a:active {
+	color: #1E90FF;
+}

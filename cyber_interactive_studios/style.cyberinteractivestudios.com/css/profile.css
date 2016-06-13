@@ -1,0 +1,166 @@
+/*
+	Profile Content Styling ------------------------------------------------------------------------------------
+*/
+.profile_content {
+	position: relative;
+	padding-top: 25px;
+	margin: 0px auto;
+	background: #FFFFFF;
+}
+
+
+
+/*
+	Left Menu Styling ------------------------------------------------------------------------------------
+*/
+.left_menu {
+	overflow: hidden;
+	color: #FFFFFF;
+	position: relative;
+	width: 220px;
+	padding: 2px;
+	border-radius: 5px 0px 0px 5px;
+	background: #1E90FF;
+}
+
+.left_menu  ul {
+	list-style: none;
+	margin: 0px 0px 0px -30px;
+}
+
+.left_menu  li {
+	font: "Miriam";
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	padding: 2px;
+}
+
+.left_menu  a:link {
+	color: #FFFFFF;
+}
+
+.left_menu  a:visited {
+	color: #FFFFFF;
+}
+
+.left_menu  a:hover {
+	color: #000000;
+}
+
+.left_menu  a:active {
+	color: #000000;
+}
+
+/* 
+	Middle Menu Styling ------------------------------------------------------------------------------------
+*/
+.middle_menu {
+	overflow: hidden;
+	display: block;
+	color: #000000;
+	position: relative;
+	width: 720px;
+	padding: 0px;
+	border: 1px solid #1E90FF; 
+	border-radius: 0px 0px 5px 5px;
+	background: #FFFFFF;
+}
+
+.middle_menu  ul {
+	list-style: none;
+}
+
+.middle_menu  li {
+	font: "Miriam";
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+/* 
+	Middle Top Menu Styling ------------------------------------------------------------------------------------
+*/
+.middle_top_menu {
+	position: relative;
+	width: 100%;
+	height: 38px;
+	background-color: #1E90FF;
+}
+
+.middle_top_menu ul {
+	display: inline-block;
+	display: block;
+	list-style: none;
+	width: 100%;
+	margin: 0px;
+}
+
+.middle_top_menu li {
+	font: "Miriam";
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	list-style: none;
+}
+
+.middle_top_menu a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.middle_top_menu a:visited {
+	color: #FFFFFF;
+}
+
+.middle_top_menu a:hover {
+	color: #000000;
+}
+
+.middle_top_menu a:active {
+	color: #000000;
+}
+
+/*
+	Right Menu Styling ------------------------------------------------------------------------------------
+*/
+.right_menu {
+	color: #FFFFFF;
+	position: relative;
+	width: 150px;
+	padding: 2px;
+	margin: 0px;
+	border-radius: 0px 5px 5px 0px;
+	background: #1E90FF;	
+}
+
+.right_menu  ul {
+	list-style: none;
+	margin: 0px 0px 0px -25px;
+}
+
+.right_menu  li {
+	font: "Miriam";
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	padding: 2px;
+}
+
+.right_menu  a:link {
+	color: #FFFFFF;
+}
+
+.right_menu  a:visited {
+	color: #FFFFFF;
+}
+
+.right_menu a:hover {
+	color: #000000;
+}
+
+.right_menu  a:active {
+	color: #000000;
+}
